@@ -25,5 +25,25 @@ body {
   .icon {
     font-size: 4rem;
   }
-
-/** MY CSS **/
+/* Optional to check */
+body {
+  background: url('../grid-flex-assignment.png') 3px 19px no-repeat;
+}
+/* MY CSS */
+.emojis {
+  display: grid;
+  grid-template-columns: repeat(2, 417px);
+  /* grid-template-rows: 303px 336px; */
+  gap: 16px;
+}
+.emoji{
+  display: flex;
+  flex-direction: column;
+}
+.icon{
+  order: -1;
+  align-self: center;
+}
+.emoji p{
+flex-grow: 1;
+}
